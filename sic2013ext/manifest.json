@@ -1,0 +1,24 @@
+{
+  "name": "SIC2013 Agenda Board",
+  "description": "Agenda Board for 2013 Seattle Interactive Conference",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "app": {
+    "urls": [
+      "http://www.seattleinteractive.com/agendaboard"
+    ],
+    "launch": {
+      "web_url": "http://www.seattleinteractive.com/agendaboard",
+	  "container":"panel"
+    }
+  },
+  "icons": {
+	"48" : "icon.png",
+    "128": "icon_128.png"
+  },
+  "minimum_chrome_version": "20.0",
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

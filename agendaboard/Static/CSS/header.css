@@ -1,0 +1,8 @@
+.logoHeader   { background-color:#233645; }
+.logoFooter   { color:white; font-weight:bold; font-family:"proxima-nova", "Century Gothic", "Arial", "san-serif"; background-color:#233645; text-align:center}
+.logoFooterA  { background-color: white; }
+.logoA 	      { height: 60px;width:1020px; }
+.logoB 		  { height: 120px;}
+.logoC 		  { height: 140px; margin-left:auto; margin-right:auto}
+.sponsorlogoA { width: 100%; height:65%; }
+.item  		  { height: 160px;}

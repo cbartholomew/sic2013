@@ -1,0 +1,12 @@
+Pull down the latest git repo - there should be a folder called, sic2013ext in the main folder "SIC2013".
+
+To Install the Chrome Extension...
+
+PreReq - Copy the sic2013ext folder to the computer you are going to be running it off.
+
+1. Open Chrome, Go to chrome://extensions/
+2. Make sure "Developer Mode" is checked in the top right hand corner of the extensions screen.
+3. Choose, "Load Unpacked Extension"
+4. Drill down to the sic2013ext folder that you copied -  Select it.
+5. go back to chrome url - type chrome://apps/
+6. Choose 2013 Agenda Board ( I through it together in like 3 minutes, don't hate on the icon :P)

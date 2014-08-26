@@ -1,0 +1,1136 @@
+{
+  "Sessions": [
+  
+    {
+	  "Name":"How I got Jeff Bezos to sign my Kindle, and what it means for storytelling and branded content" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      	
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Hanson",
+           "Last Name": "Hosein",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "University of Washington",
+           "Job Title":"Director Communication Leadership graduate program"
+        }      
+      ],
+       "Moderator":[
+       	
+      ]
+    },  
+    {"Name":"<Not Provided> - Measuring Paid and Organic Search" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Ben",
+           "Last Name": "Lloyd",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Amplify Interactive",
+           "Job Title":"President"
+        },      
+        {           
+           "First Name": "Ian",
+           "Last Name": "Lurie",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Portent Inc.",
+           "Job Title":"CEO"
+        },      
+        {           
+           "First Name": "Stephen",
+           "Last Name": "Hall",
+           "Public":"false" ,
+           "Status":"Invited",
+           "Company": "Catalyst / GroupM",
+           "Job Title":"Sr. Partner; Group Account Director"
+        }      
+      ],
+       "Moderator":[
+       
+        {           
+           "First Name": "Rob",
+           "Last Name": "Ousbey",
+           "Public":"false" ,
+           "Status":"Invited",
+           "Company": "Distilled",
+           "Job Title":"COO"
+        }      
+      ]
+    },  
+    {"Name":"A Future Worth Wanting" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "James ",
+           "Last Name": "Whittaker ",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Microsoft",
+           "Job Title":""
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Aligning to multi-screen customer journeys" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Carrie ",
+           "Last Name": "Byrne",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "Seattle Wunderman Network",
+           "Job Title":"Associate Director, User Experience"
+        },      
+        {           
+           "First Name": "Paul ",
+           "Last Name": "Booth",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "iconmobile",
+           "Job Title":"Strategy Lead"
+        },      
+        {           
+           "First Name": "Geoff ",
+           "Last Name": "Harrison",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Blink User Experience",
+           "Job Title":"Creative Director/Partner"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Building the Uncarrier Website: Simplicity & Transparency on tmobile.com" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Develop" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Peter",
+           "Last Name": "Francis",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "T-Mobile",
+           "Job Title":"Vice President of eCommerce & Web Transformation"
+        },      
+        {           
+           "First Name": "Mike",
+           "Last Name": "Selman",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Razorfish",
+           "Job Title":"Group VP, Strategy"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Do Your Part for the Inboxes of the World: Upgrade Your Email Design " ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Design" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Haydn",
+           "Last Name": "Sweterlitsch",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "Hacker Group",
+           "Job Title":"Creative Director"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Engage. Inspire. Delight: Software Experience Design" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Design" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"Software has become the touch-point for how consumers experience brands; through apps, web, operating systems &ndash; virtually all digital interfaces are now the embodiment of brand. Bill Flora discusses the approach, process and point of view he &amp; his firm use to design some of the most widely used and well-received software experiences on the planet.
+
+&nbsp;" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Bill",
+           "Last Name": "Flora",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "tectonic",
+           "Job Title":"Principal Partner"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"From Theory to Practice – 5 Ways to Do Cross-Device Right" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Master Class"	,
+      "Track":"Digital" ,
+      "Day":"Day One" ,
+      "Start Time":"10:10am" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"Every year there’s a white-hot topic in digital marketing. This year it&#8217;s cross-device marketing. In theory, cross-device sounds like a winning strategy to reach consumers with fragmented attention across multiple screens – but doing cross-device right requires a building plans around the customer and their cross-device usage patterns, not platforms or devices. Put theory into practice by learning the 5 key drivers of cross-device marketing effectiveness." ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Kurt",
+           "Last Name": "Hawks",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Greystripe",
+           "Job Title":"General Manager"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Getting the “A” in BrAnd:  Understanding the Seven Audiences Most Likely to Influence Your Reputation" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"Getting an “A” in brand depends on understanding and managing your AUDIENCE - Nurturing them will win you ADVOCATES, mistreating them will create ADVERSARIES and ignoring them generates brand AGNOSTICS.&nbsp; We will  discuss the most important audiences that can influence your reputation and how to move them from adversaries to advocates with the right strategy and approach." ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Kerry",
+           "Last Name": "McGowne",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Pivotal Communications",
+           "Job Title":"President"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Hackathon" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Develop" ,
+      "Day":"Day Two" ,
+      "Start Time":"2:00pm" ,
+      "End Time":"2:50pm" ,
+      "Room":"room301" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Rebecca",
+           "Last Name": "Kaden",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Maveron",
+           "Job Title":"Principal"
+        },      
+        {           
+           "First Name": "Michelle",
+           "Last Name": "Goldberg",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Partner",
+           "Job Title":"Ignition Partners"
+        },      
+        {           
+           "First Name": "Hanson",
+           "Last Name": "Hosein",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "University of Washington",
+           "Job Title":"Director Communication Leadership graduate program"
+        },      
+        {           
+           "First Name": "John",
+           "Last Name": "Cook",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "",
+           "Job Title":""
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Hackathons and Building Creative Cultures" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Develop" ,
+      "Day":"Day Two" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Matt ",
+           "Last Name": "Mulder",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Digital Kitchen",
+           "Job Title":"Executive Creative Director"
+        },      
+        {           
+           "First Name": "Mike ",
+           "Last Name": "Kemery",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "MakerHaus",
+           "Job Title":"Cofounder"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"How To Lie Effectively in the Age of Transparency" ,
+      "Public":"false" ,
+      "Status":"Pending" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Jason ",
+           "Last Name": "Carmel",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "POSSIBLE",
+           "Job Title":"Global SVP, Marketing Sciences"
+        },      
+        {           
+           "First Name": "Ray ",
+           "Last Name": "Page ",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "POSSIBLE",
+           "Job Title":"Executive Creative Director"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"How to win "friends" and really influence people" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Ryan",
+           "Last Name": "Vanni",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "BKWLD",
+           "Job Title":"CEO/Founder"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Interactive Production: Making It Happen" ,
+      "Public":"true" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Develop" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Lori",
+           "Last Name": "DeBortoli",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Wieden + Kennedy",
+           "Job Title":"Executive Producer"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Is the hashtag the new URL?" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Master Class"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"Learn how the hashtag has changed the social media conversation and marketing for brands &ndash; globally
+
+&nbsp;" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Josh",
+           "Last Name": "Decker",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Tagboard",
+           "Job Title":"CEO"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Media News Panel" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"Day One" ,
+      "Start Time":"2:00pm" ,
+      "End Time":"2:50pm" ,
+      "Room":"room301" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Kelly",
+           "Last Name": "Clay",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Forbes & HasOffers",
+           "Job Title":"Digital Communications Strategist"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"No Pain, No Gain: How to Identify Pain Points to Build Your Business" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "David",
+           "Last Name": "Mandell",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "PivotDesk",
+           "Job Title":"Co-Founder & CEO"
+        },      
+        {           
+           "First Name": "Rand",
+           "Last Name": "Fishkin",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Moz",
+           "Job Title":"CEO"
+        },      
+        {           
+           "First Name": "Grant",
+           "Last Name": "Feek",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "tred",
+           "Job Title":"CEO"
+        }      
+      ],
+       "Moderator":[
+       
+        {           
+           "First Name": "David",
+           "Last Name": "Mandell",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "PivotDesk",
+           "Job Title":"Co-Founder & CEO"
+        }      
+      ]
+    },  
+    {"Name":"Notes from DevRow in a digital agency.  "How cloud platforms are enabling agencies to create and scale amazing experiences."" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Ian ",
+           "Last Name": "Clausen",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Rational",
+           "Job Title":"Technology Director"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Open House: How Open Platforms are Making Our Homes Smarter" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Develop" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"SmartThings Senior Director of Platform Strategy Dan Lieberman will explain how Internet of Things companies are making it easy to connect everyday objects to the Internet and control them via their smartphones. He’ll discuss how the “open source revolution” is encouraging companies to innovate and streamline the user experience in a simple and secure fashion." ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Dan",
+           "Last Name": "Lieberman",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "SmartThings",
+           "Job Title":"Senior Director of Platform Strategy"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Pay It Forward: Programmer Transparency and Collaborative Education" ,
+      "Public":"false" ,
+      "Status":"Pending" ,
+      "Type":"Session"	,
+      "Track":"Develop" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Marc",
+           "Last Name": "Ammann",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Huge/KingCoyle",
+           "Job Title":"Technical Director"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Real-time/Programmatic Advertising for Display and Mobile: What's Next?" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":""	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Dave",
+           "Last Name": "Osborn",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "AppNexus",
+           "Job Title":"VP, Global Accounts"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Secrets of a Killer Pitch" ,
+      "Public":"true" ,
+      "Status":"Confirmed" ,
+      "Type":"Master Class"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Adam",
+           "Last Name": "Tratt",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Haiku Deck",
+           "Job Title":"Co-Founder & CEO"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Shifting Paradigms: Knowledge Powered Audience Engagement" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Dr. Ying",
+           "Last Name": "Li",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Parllay",
+           "Job Title":"Chief Scientist Advisor"
+        },      
+        {           
+           "First Name": "Tarek",
+           "Last Name": "Najm",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Maana",
+           "Job Title":"CTO & Technical Fellow"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Shopping Inside a Mash-Up: How Retailers are blurring the lines between the physical and the digital" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Develop" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Social Media For Good (PLACE HOLDER TITLE, MODIFY WHEN HAVE REAL TITLE)" ,
+      "Public":"false" ,
+      "Status":"Pending" ,
+      "Type":""	,
+      "Track":"" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Brooke",
+           "Last Name": "Angles",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Admosis Media",
+           "Job Title":"Founder"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"Telling the stories from data: lessons in visualizing, story-telling, transparency and impact." ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Whitney",
+           "Last Name": "Stensrud",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "The Seattle Times",
+           "Job Title":"Graphics Director"
+        },      
+        {           
+           "First Name": "Cheryl ",
+           "Last Name": "Phillips",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "The Seattle Times",
+           "Job Title":"Data Enterprise Editor"
+        },      
+        {           
+           "First Name": "Ian ",
+           "Last Name": "Kalin",
+           "Public":"false" ,
+           "Status":"Confirmed",
+           "Company": "Socrata",
+           "Job Title":""
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"The Evolution of Branded Content – from Sears Catalogs to Red Bull Space Jumps" ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Andrew ",
+           "Last Name": "Grinaker",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Possible",
+           "Job Title":"Sr. Media Services Manager"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"The Future of Social Advertising – What Can It Do for Your Brand?" ,
+      "Public":"true" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"Day One" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"Key themes, trends and content strategies for social advertising on Facebook, Twitter and LinkedIn will be shared to meet direct response and engagement goals. Best practices for leveraging paid, earned and owned social strategies and examples of customer ROI will show how social platforms can help build community, improve brand lift and conversion rates, mobilize followers, and improve revenue." ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Rebecca",
+           "Last Name": "Kaykas-Wolff",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Adobe",
+           "Job Title":"Group Product Marketing, Social Advertising"
+        },      
+        {           
+           "First Name": "Brooke",
+           "Last Name": "Angles",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Admosis Media",
+           "Job Title":"Founder"
+        },      
+        {           
+           "First Name": "Tyler",
+           "Last Name": "Willis",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Unified",
+           "Job Title":"Vice President of Business Development"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"The Idea Idea " ,
+      "Public":"false" ,
+      "Status":"Confirmed" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Brian  ",
+           "Last Name": "Spittler",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Method Communications",
+           "Job Title":"Account Executive"
+        },      
+        {           
+           "First Name": "Brian ",
+           "Last Name": "O'Shea",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "BuildersCloud",
+           "Job Title":"Co-Founder/Director of Product "
+        },      
+        {           
+           "First Name": "Amy ",
+           "Last Name": "Spittler Shaffer",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Kidnected and The Wonderment",
+           "Job Title":"Creative Director"
+        },      
+        {           
+           "First Name": "Corey",
+           "Last Name": "Gutch",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Civilization",
+           "Job Title":"Co-Founder/Interactive Director"
+        },      
+        {           
+           "First Name": "Michael",
+           "Last Name": "Ellsworth",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Civilization",
+           "Job Title":"Creative Director"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"The Power of Real Time Marketing through Mobile" ,
+      "Public":"false" ,
+      "Status":"Pending" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"The ultimate goal of many marketers is to deliver highly personalized content, real-time, relative to what a consumer is doing “now.”&nbsp; This means truly delivering the right message, right person, right place, and right time, while addressing them by name.&nbsp; Now combine this with the Omni-presence of the mobile channel and the result is a tremendously powerful advertising tool.
+
+Learn how AT&amp;T is doing just this by leveraging dynamic, personalized content through mobile video to drive significant customer engagement and increase loyalty." ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Matt",
+           "Last Name": "Ramerman",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "VEHICLE",
+           "Job Title":"Co-Founder & Managing Director"
+        },      
+        {           
+           "First Name": "Michelle",
+           "Last Name": "Schmoelzer",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "AT&T",
+           "Job Title":"Associate Director"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"The REI 1440 Project: Curating Outdoor Adventure" ,
+      "Public":"true" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"REI&#8217;s mission is to inspire, educate and outfit for a lifetime of outdoor adventure and stewardship. What does that look like in online social networks? The REI 1440 Project. In this case study presentation, the REI Digital Engagement Team will review its discovery process, partnership with agencies, and successes and challenges in hosting an owned social community." ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Paolo",
+           "Last Name": "Mottola",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "REI",
+           "Job Title":"Digital Engagement Program Manager"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"The Transparent: Your data and how three digital marketing professionals intend to use it to make your life better" ,
+      "Public":"false" ,
+      "Status":"Pending" ,
+      "Type":"Panel"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+        {           
+           "First Name": "Patrick ",
+           "Last Name": "Cartmel",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Undertone",
+           "Job Title":"VP, National Strategic Accounts"
+        },      
+        {           
+           "First Name": "Kirsten ",
+           "Last Name": "Ward",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Microsoft",
+           "Job Title":"Sr. Director, Xbox Digital and Direct Marketing"
+        },      
+        {           
+           "First Name": "Megan ",
+           "Last Name": "Tweed",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "Razorfish",
+           "Job Title":"VP of Media"
+        },      
+        {           
+           "First Name": "Mike",
+           "Last Name": "Reeder",
+           "Public":"true" ,
+           "Status":"Confirmed",
+           "Company": "POSSIBLE",
+           "Job Title":"VP, Account Planning & Strategy"
+        }      
+      ],
+       "Moderator":[
+       
+      ]
+    },  
+    {"Name":"What is Attribution?" ,
+      "Public":"true" ,
+      "Status":"Confirmed" ,
+      "Type":"Session"	,
+      "Track":"Digital" ,
+      "Day":"" ,
+      "Start Time":"" ,
+      "End Time":"" ,
+      "Room":"tbd" ,
+      "Topics" :[
+      
+      ],
+      "Summary":"" ,
+      "Speakers": [
+      
+      ],
+       "Moderator":[
+       
+      ]
+    }    
+  ]
+}

@@ -1,0 +1,9 @@
+1. Make new view (html template), place in views folder
+2. Add view short name and path to ViewManager.php construct
+3. Make new controller to call business layer objects
+3.1. Inside of controller methods, call "query" to retrieve an array of the results
+4. pass results to the view by calling ViewManager:RenderView(ViewName, arguments array)
+5. Ensure those arguments are in the view and should be handled accordingly.
+
+
+

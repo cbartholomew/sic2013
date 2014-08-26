@@ -1,0 +1,182 @@
+exp_channel_fields
+	Agenda Field ID's
+	28 agenda_body
+	29 agenda_schedule
+	30 agenda_seo_description
+	31 agenda_seo_keywords
+	
+exp_channel_data
+
+SELECT * 
+FROM exp_channel_data AS ecd
+INNER JOIN exp_channel_titles AS ect ON ecd.entry_id = ect.entry_id
+LIMIT 660 , 30
+
+
+SELECT * 
+FROM exp_channel_data AS ecd
+INNER JOIN exp_channel_titles AS ect ON ecd.entry_id = ect.entry_id
+INNER JOIN exp_channels AS ec ON ecd.channel_id = ec.channel_id
+INNER JOIN exp_category_posts as ecp ON ecp.entry_id = ecd.entry_id 
+WHERE ec.channel_id = 16
+
+SELECT * 
+FROM exp_category_groups AS ecg
+INNER JOIN exp_categories AS ec ON ecg.group_id = ec.group_id
+
+SELECT * 
+FROM exp_category_groups AS ecg
+INNER JOIN exp_channel_fields AS ecf ON ecg.group_id = ecf.group_id
+
+SELECT * 
+FROM  `exp_field_groups` 
+WHERE site_id =2
+LIMIT 0 , 30
+
+select field_id, field_name, field_label
+from exp_field_groups
+where site_id = 2
+and group_id = 13
+
+Group
+11	2	Sessions
+12	2	Speakers
+13	2	Sponsors
+15	2	Static Fields
+
+update exp_channel_data set field_id_41 = 'a Future Worth Wanting' where entry_id = 705
+update exp_channel_data set field_id_41 = 'a Future Worth Wanting' where entry_id = 705
+
+// Session!
+SELECT 
+entry_id,
+field_id_40 	as session_day, 
+field_id_41 	as session_name,
+field_id_42 	as session_start_time,
+field_id_43 	as session_end_time,
+field_id_44 	as session_description,
+field_id_46 	as session_room,
+field_id_51  	as session_speakers,
+field_id_52  	as session_moderator,
+field_id_185 	as session_topics,
+field_id_157 	as session_is_sponsored,
+field_id_158 	as session_sponsor,
+field_id_177    as session_visible,
+field_id_178    as session_status
+FROM  exp_channel_data AS ecd
+WHERE ecd.channel_id 		= 16
+AND   ecd.site_id 	 		= 2
+AND   ecd.field_id_178 	in ('confirmed','pending')
+// Speakers!
+// ec.entry_id == session.speakers -> [id no]
+SELECT 
+field_id_72  as speaker_first_name,
+field_id_73  as speaker_last_name,
+field_id_179 as speaker_status, 
+field_id_76  as speaker_job_title,
+field_id_77  as speaker_company_name
+FROM exp_channel_data AS ecd
+INNER JOIN exp_channel_titles AS ect 
+ON ecd.entry_id = ect.entry_id
+INNER JOIN exp_channels AS ec 
+ON ecd.channel_id = ec.channel_id
+INNER JOIN exp_category_posts as ecp 
+ON ecp.entry_id = ecd.entry_id 
+WHERE ec.channel_id = 17
+AND   ec.site_id 	= 2
+
+SELECT 
+field_id_180 as sponsor_status					,
+field_id_159 as sponsor_account_lead			,
+field_id_160 as sponsor_ask_amount				,
+field_id_98  as sponsor_logo_web				,
+field_id_99  as sponsor_logos_print				,
+field_id_100 as sponsor_link					,
+field_id_101 as sponsor_contact_info			,
+field_id_102 as sponsor_dollar_amount			,
+field_id_103 as sponsor_commitment_date			,
+field_id_104 as sponsor_thank_you_sent_date		,
+field_id_106 as sponsor_pack_sent_date			,
+field_id_108 as sponsor_logo_received			,
+field_id_109 as sponsor_number_of_comps			,
+field_id_110 as sponsor_comp_coupon_code		,
+field_id_111 as sponsor_receive_discount		,
+field_id_112 as sponsor_discount_coupon_code	,
+field_id_113 as sponsor_comp_discount_notes		,
+field_id_114 as sponsor_app_spec_sent_date		,
+field_id_115 as sponsor_date_ad_received		,
+field_id_116 as sponsor_ad_size					,
+field_id_148 as sponsor_attendees				,
+field_id_149 as sponsor_final_payment_received	,
+field_id_118 as sponsor_ad_notes				,
+field_id_119 as sponsor_tote_bag_offered		,
+field_id_120 as sponsor_tote_bag_accepted		,
+field_id_121 as sponsor_tote_bag_details		,
+field_id_122 as exhibit_space_offered			,
+field_id_124 as exhibit_furniture_rental		,
+field_id_125 as exhibit_space_number			,
+field_id_126 as exhibit_space_confirmation		,
+field_id_127 as exhibit_space_deadline_confirmat,
+field_id_147 as exhibit_space_notes				,
+field_id_129 as sponsor_logo_placement		    ,
+field_id_130 as sponsor_profile					,
+field_id_131 as sponsor_general_notes			,
+field_id_150 as sponsor_deposit_received		,
+field_id_151 as sponsor_final_payment_amount	,
+field_id_133 as sponsor_website_banner			,
+field_id_134 as sponsor_verbal_recognition		,
+field_id_135 as sponsor_onsite_meeting_room		,
+field_id_152 as sponsor_deposit_amount		    ,
+field_id_137 as sponsor_award_ceremony			,
+field_id_138 as sponsor_logo_notes				,
+field_id_146 as sponsor_discount_amount			,
+field_id_153 as exhibit_tier_1					,
+field_id_154 as exhibit_space_size				,
+field_id_164 as sponsor_street_address			,
+field_id_165 as sponsor_city					,
+field_id_166 as sponsor_state					,
+field_id_167 as sponsor_zip						,
+field_id_168 as sponsor_contact_notes			,
+field_id_170 as sponsor_country					,
+field_id_174 as sponsor_visible					,
+field_id_175 as sponsor_level					,
+field_id_181 as sponsor_contract				,
+field_id_182 as sponsor_leave_behind			,
+field_id_183 as sponsor_leave_behind_notes		
+FROM  exp_channel_data AS ecd
+WHERE ecd.channel_id 	= 18
+AND   ecd.field_id_180 in ('active','pending')
+AND   ecd.site_id 	 	= 2
+
+
+SELECT 
+* 
+FROM
+exp_files 
+WHERE 
+file_id = ?
+
+[296] [jake_newman] Jake Newman
+
+SELECT 
+field_id_46 as session_room
+FROM  exp_channel_data AS ecd
+WHERE ecd.channel_id 		= 16
+AND   ecd.site_id 	 		= 2
+AND   ecd.field_id_178 	in ('confirmed','pending')
+group by field_id_46
+
+SELECT 
+field_id_46 as session_room,
+count(field_id_46) as room_count
+FROM  exp_channel_data AS ecd
+WHERE ecd.channel_id 		= 16
+AND   ecd.site_id 	 		= 2
+AND   ecd.field_id_178 	in ('confirmed','pending')
+group by field_id_46
+
+$hours = floor($seconds / 3600);
+$mins  = floor(($seconds - ($hours*3600)) / 60);
+
+// HOURS
+=FLOOR((A3 - ((IF(FLOOR(A3 / 3600) > 12,FLOOR(A3 / 3600) - 12,FLOOR(A3/3600)))  * 3600)) / 60)

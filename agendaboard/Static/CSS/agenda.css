@@ -1,0 +1,37 @@
+body  		   { background-color: #111; background: #ddd/* url(../Images/diagonal.png) */; font-family: "proxima-nova","Century Gothic","Arial","san-serif";}
+h1, h2, h3, h4, h5, h6 { font-family: "proxima-nova","Century Gothic","Arial","san-serif"; font-weight: 700; }
+p, ol, ul { font-family: "proxima-nova","Century Gothic","Arial","san-serif"; }
+thead 		   { font-size:large;}
+th 	   		   { font-weight:bold; color:white; text-align: center;} 
+.myPanelTd	   { width:  17%; }
+.activeCol     { height: 350px;}
+.activeRow     { background-color: #fef56b; }
+.agenda 	   { font-family:"proxima-nova", "Century Gothic", "Arial", "san-serif"; }
+.agendaTable   { height:100%;}
+.head 		   { font-weight:bold; font-family:"proxima-nova", "Century Gothic", "Arial", "san-serif"; background-color:#233645; color:white;  }
+.logoC		   { height: 60px; width:180px;}
+.sessionColumn { height: 100%;}
+                                          
+.room202Header {background-color: #005DA4; color:white }
+.room204Header {background-color: #19B244; color:white }
+.room205Header {background-color: #6A6A6A; color:white }
+.room301Header {background-color: #00DEF2; color:white }
+.room302Header {background-color: #652c84; color:white }
+.room303Header {background-color: #cc2129; color:white }
+.roomLL2Header {background-color: #f26625; color:white }
+
+.roomTemp {opacity:10%;}
+
+.defaultHeaderBackground {background-color:#00DEF2; color:white }
+
+.table-bordered > thead > tr > th { border: 1px solid transparent; } 
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+}
+.table-condensed thead > tr > th { font-size: 1.2em;}
+.table-condensed > tbody > tr > td {  padding-left: 0px; }

@@ -1,0 +1,54 @@
+.mypanel 	{ height: 100%; background-color:white; padding-top:5px; padding-right:5px; padding-left:5px; border-radius: 0px 5px 5px 0px; }
+.mypanel ul, li  { font-size: 1.5em; }
+.mypanel_inactive { height: 100%; background-color:white; background: rgba(255,255,255.1)/* url(../Images/diagonal2.png) */; padding-top:5px; padding-right:5px; padding-left:5px;}
+.makesmaller { font-size: 1.5em; }
+.trackTimes h4 { padding-left: 5px; font-size: 1.5em; }
+
+.eventOverlay  { opacity:0.9;   filter:alpha(opacity=90); }
+.eventOverlay:hover { cursor: pointer; }
+
+.innerLeftColumn_room202 { height: 100%; background-color: #005DA4; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_room204 { height: 100%; background-color: #19B244; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_room205 { height: 100%; background-color: #6A6A6A; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_room301 { height: 100%; background-color: #52c6da; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_room302 { height: 100%; background-color: #652c84; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_room303 { height: 100%; background-color: #cc2129; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_roomLL2 { height: 100%; background-color: #f26625; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+
+.innerLeftColumnModal_room202 { height: 100%; background-color: #005DA4;padding-left:20px; border-radius:5px; color:white;}
+.innerLeftColumnModal_room204 { height: 100%; background-color: #19B244;padding-left:20px; border-radius:5px; color:white;}
+.innerLeftColumnModal_room205 { height: 100%; background-color: #6A6A6A;padding-left:20px; border-radius:5px; color:white;}
+.innerLeftColumnModal_room301 { height: 100%; background-color: #52c6da;padding-left:20px; border-radius:5px; color:white;}
+.innerLeftColumnModal_room302 { height: 100%; background-color: #652c84;padding-left:20px; border-radius:5px; color:white;}
+.innerLeftColumnModal_room303 { height: 100%; background-color: #cc2129;padding-left:20px; border-radius:5px; color:white;}
+.innerLeftColumnModal_roomLL2 { height: 100%; background-color: #f26625;padding-left:20px; border-radius:5px; color:white;}
+                                          
+.innerRightColumn_room202 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_room204 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_room205 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_room301 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_room302 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_room303 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_roomLL2 { height: 100%; margin-left:1%; margin-right:2%; }
+
+.statusLabelCancelledTrue  { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
+.statusLabelMovedTrue 	   { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
+.statusLabelFullFalse { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
+.statusLabelFullTrue  { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
+
+.trackDigital { background-color: #f26529; float:right; margin-top:1%;margin-right:3%; margin-left: 2%; color:white;padding:3px 6px; border-radius:5px; }
+.trackDevelop { background-color: #662584; float:right; margin-top:1%;margin-right:3%; margin-left: 2%; color:white;padding:3px 6px; border-radius:5px; }
+.trackDesign  { background-color: #00DEF2; float:right; margin-top:1%;margin-right:3%; margin-left: 2%; color:white;padding:3px 6px; border-radius:5px; }
+
+.sessionName { font-size: 1.4em; line-height: 1.2em; margin: 5px 0px 10px 0px; }
+.speakerName    { font-weight: bold; font-size:1.2em; color: #19b244}
+.speakerCompany { color: #111; display: block; font-size: .95em; }
+.speakerCompany:before { content: "// "; }
+.speakerName em { font-weight: normal; }
+label.speakerName {line-height: 1.1em; display: block; }
+
+.modal-header { border-radius: 5px 5px 0px 0px; }
+.modal-header h4 { font-size: 1.5em; padding-right: 20px; line-height: 1.2em; }
+.modal-body h4, .modal-body h5 { margin: 10px 0px 5px 0px; }
+.modal-body .speakerCompany {  font-size: 1em; }
+.modal-body li { padding-bottom: 1%; }

@@ -1,0 +1,8 @@
+.twitterPanel { font-size: 1.2em;;  overflow-y: visible; height:15%;background-color:#F0F0F0;}
+.tweet { padding: 2px 5px; font-size: 1em; line-height: 1.2em; }
+.liveTweetsTop { background-color:#39b3d7;font-weight:400;color:white; border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; text-transform: uppercase; } 
+.liveTweetsBottom { background-color:#39b3d7;font-weight:bold;color:white; border-bottom-left-radius: 5px 5px; border-bottom-right-radius: 5px;} 
+.liveTweetsBottom iframe { margin-top: 5px;}
+.twitterHandle { line-height: 1.1em; padding-top: 0px; }
+.twitterActions { min-width: 70px; text-align: right; }
+.twitterText { padding-bottom: 4px; padding-top: 4px; }
