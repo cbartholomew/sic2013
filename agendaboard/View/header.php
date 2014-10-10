@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>SIC2014 Agendaboard</title>
 <!-- Content Delivery Network StyleSheets  -->
 <link rel="stylesheet" type="text/css" href="cdn/css/jquery-ui.smoothness.min.css"> 
 <link rel="stylesheet" type="text/css" href="cdn/css/bootstrap.min.css">
@@ -40,6 +42,7 @@
 <!--[if lt IE 10]>
       	<script type="text/javascript" src="cdn/lib/query.watermark.min.js"></script>
 <![endif]-->
+<head>
 <body>
 <div class='logoHeader row'>
 	<div class='col-xs-12 col-sm-8 col-md-8 col-lg-8 '>
