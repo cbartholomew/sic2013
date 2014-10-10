@@ -146,16 +146,16 @@
 									$statusHTML = GetStatusHTML($session->item["Status"]);
 									
 									// get the status, place has false if not confirmed
- 									if($rowCls == "activeRow")
-									{	
-										if($session->item["Full"] != "false")
-										{								
+ 									//if($rowCls == "activeRow")
+									//{	
+										if($session->item["Full"] === 'true')
+										{							
 											// set the css and message
 											$roomIsFullHTML = $roomAvailability["HTML"];
 										}
 										// set panel css				
 										$panelCSS 	   = "mypanel";									
-									}
+									//}
 									
 								}
 								
