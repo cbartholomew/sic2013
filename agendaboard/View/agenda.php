@@ -13,14 +13,14 @@
 											
 							// create the header column, which are the room names - this is from Agenda.JSON config file
 							for($i=0,$n=$agenda["RoomCount"];$i<$n;$i++)
-							{								
+							{	
 								// extract the room
 								$room = $agenda["Rooms"][$i];	
-								
+
 								// if room is not active, skip
-								if(!$room["Active"])
+								if(!$room["Active"] || IsRoomInactiveOnDay($room,$day))
 									continue;
-								
+
 								$roomHeaderCSS = "defaultHeaderBackground";	
 								// get the correct background CSS
 								$roomHeaderCSS = $room["CSS"]["TableHeader"];		
@@ -81,7 +81,7 @@
 								$room = $agenda["Rooms"][$i];	
 								
 								// skip inactive rooms from json config
-								if(!$room["Active"])
+								if(!$room["Active"] || IsRoomInactiveOnDay($room,$day))
 									continue;
 																
 								// set the session search parameters
@@ -195,7 +195,10 @@
 									$roomHashTag = $session->item["Hashtag"];
 									
 									// render tweets by hashtag - function is called in helpers
-									$tweets = GetTweetsByHashEventTag($session->item["Hashtag"]);
+									// set in constants - if disabled, don't do tweets
+									if(!DISABLE_TWEETS)
+									{
+										$tweets = GetTweetsByHashEventTag($session->item["Hashtag"]);
 									
 									// set up the tweet html variable
 									$tweetHtml = "";
@@ -239,7 +242,10 @@
 									);
 									
 									// make html that creates a panel of tweets
-									$twitterPanelHtml = $viewManager->renderViewHTML("twitterpanel",$twitterArguments, false, false);															
+									$twitterPanelHtml = $viewManager->renderViewHTML("twitterpanel",$twitterArguments, false, false);	
+
+									}
+																							
 								}	
 								
 								// push tweets on the stack

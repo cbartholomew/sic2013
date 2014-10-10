@@ -1,5 +1,24 @@
 <?php
     
+    function IsRoomInactiveOnDay($room, $day)
+    {
+    	$overrideDayCount = count($room["ActiveDayOverride"]["DayNos"]);
+
+		// active day override
+		if($overrideDayCount){
+			for($j=0,$o=$overrideDayCount;$j<$o;$j++)
+			{
+				// if current day is suppose ot be inactive continue
+				if($day == $room["ActiveDayOverride"]["DayNos"][$j])
+				{
+					return true;			
+				}
+			}
+		}
+		
+		return false;
+    }
+
 	/* GetHeader($dayNo)
 	 *
  	 * Accepts the day number, and returns the image path for the header
@@ -403,6 +422,9 @@
 			case "Room LL2":
 				return "roomLL2";
 			break;
+			case "Room LL5":
+				return "roomLL5";
+			break;
 			case "tbd":					
 			default:
 				return "roomNotActive";
@@ -441,6 +463,9 @@
 			break;
 			case "Room LL2":
 				return "roomLL2Header";
+			break;
+			case "Room LL5":
+				return "roomLL5Header";
 			break;
 			case "tbd":					
 			default:
