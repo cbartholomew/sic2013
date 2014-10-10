@@ -14,6 +14,7 @@
 .innerLeftColumn_room302 { height: 100%; background-color: #652c84; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
 .innerLeftColumn_room303 { height: 100%; background-color: #cc2129; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
 .innerLeftColumn_roomLL2 { height: 100%; background-color: #f26625; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn_roomLL5 { height: 100%; background-color: #6A6A6A; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
 
 .innerLeftColumnModal_room202 { height: 100%; background-color: #005DA4;padding-left:20px; border-radius:5px; color:white;}
 .innerLeftColumnModal_room204 { height: 100%; background-color: #19B244;padding-left:20px; border-radius:5px; color:white;}
@@ -22,7 +23,8 @@
 .innerLeftColumnModal_room302 { height: 100%; background-color: #652c84;padding-left:20px; border-radius:5px; color:white;}
 .innerLeftColumnModal_room303 { height: 100%; background-color: #cc2129;padding-left:20px; border-radius:5px; color:white;}
 .innerLeftColumnModal_roomLL2 { height: 100%; background-color: #f26625;padding-left:20px; border-radius:5px; color:white;}
-                                          
+.innerLeftColumnModal_roomLL5 { height: 100%; background-color: #6A6A6A;padding-left:20px; border-radius:5px; color:white;}                                         
+
 .innerRightColumn_room202 { height: 100%; margin-left:1%; margin-right:2%; }
 .innerRightColumn_room204 { height: 100%; margin-left:1%; margin-right:2%; }
 .innerRightColumn_room205 { height: 100%; margin-left:1%; margin-right:2%; }
@@ -30,6 +32,7 @@
 .innerRightColumn_room302 { height: 100%; margin-left:1%; margin-right:2%; }
 .innerRightColumn_room303 { height: 100%; margin-left:1%; margin-right:2%; }
 .innerRightColumn_roomLL2 { height: 100%; margin-left:1%; margin-right:2%; }
+.innerRightColumn_roomLL5 { height: 100%; margin-left:1%; margin-right:2%; }
 
 .statusLabelCancelledTrue  { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
 .statusLabelMovedTrue 	   { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}

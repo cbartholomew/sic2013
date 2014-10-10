@@ -1,9 +1,12 @@
 {
-	"RoomCount" : 6,
+	"RoomCount" : 8,
 	"Rooms" 	: [
 				{ 
 					"Number": "Room 301", 
 					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
 					"DisplayOrder" : 3,
 					"Occupancy": 999, 
 					"Short":"301",
@@ -21,6 +24,9 @@
 				{ 
 					"Number": "Room 302", 
 					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
 					"DisplayOrder" : 2,
 					"Occupancy": 999, 
 					"Short":"302", 
@@ -38,6 +44,9 @@
 				{ 
 					"Number": "Room 303",
 					"Active": true, 
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
 					"DisplayOrder" :1,
 					"Occupancy": 999, 
 					"Short":"303",
@@ -55,6 +64,9 @@
 				{ 
 					"Number": "Room 202",
 					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
 					"DisplayOrder" : 5, 
 					"Occupancy": 999, 
 					"Short":"202",
@@ -72,6 +84,9 @@
 				{ 
 					"Number": "Room 204", 
 					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
 					"DisplayOrder" : 4, 
 					"Occupancy": 999, 
 					"Short":"204",
@@ -89,7 +104,10 @@
 				{ 
 					"Number": "Room LL2", 
 					"Active": true,
-					"DisplayOrder" : 6, 
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
+					"DisplayOrder" : 7, 
 					"Occupancy": 999, 
 					"Short":"LL2",
 					"Twitter": {
@@ -102,18 +120,59 @@
 						"PanelRight":"innerRightColumn_roomLL2",
 						"Modal"	 : "innerLeftColumnModal_roomLL2"
 					} 
+				},
+				{ 
+					"Number": "Room 205", 
+					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": [1] 
+					},
+					"DisplayOrder" : 6, 
+					"Occupancy": 999, 
+					"Short":"205",
+					"Twitter": {
+						"MaxShown": 1
+					},
+					"CSS" : 
+					{ 
+						"TableHeader":"room205Header",
+						"PanelLeft": "innerLeftColumn_room205",
+						"PanelRight":"innerRightColumn_room205",
+						"Modal"	 : "innerLeftColumnModal_room205"
+					} 
+				},
+				{ 
+					"Number": "Room LL5", 
+					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": [] 
+					},
+					"DisplayOrder" : 8, 
+					"Occupancy": 999, 
+					"Short":"LL5",
+					"Twitter": {
+						"MaxShown": 1
+					},
+					"CSS" : 
+					{ 
+						"TableHeader":"roomLL5Header",
+						"PanelLeft": "innerLeftColumn_roomLL5",
+						"PanelRight":"innerRightColumn_roomLL5",
+						"Modal"	 : "innerLeftColumnModal_roomLL5"
+					} 
 				}
 	],
 	"Title"		: "Agenda",
 	"Conference"	: [
 		{
 			"Name" : "Custom Day Name",
+			"Active": true,
 			"DayNo": 1, 
-			"Day"  : "Monday",
+			"Day"  : "Wednesday",
 			"Date" : { 
 				"Month" : "10",
-				"Day"	: "28",
-				"Year"	: "2013"
+				"Day"	: "15",
+				"Year"	: "2014"
 			}, 
 			"Times": {
 					"Administrative" : [
@@ -165,39 +224,40 @@
 						{
 							"Order": 2, 
 							"Start": "10:10", "StartMeridian":"AM", 
-							"End"  : "11:10", "EndMeridian"  :"AM"
+							"End"  : "11:00", "EndMeridian"  :"AM"
 						},
 						{
 							"Order": 3, 
-							"Start": "11:30", "StartMeridian":"AM", 
-							"End"  : "12:30", "EndMeridian"  :"PM"
+							"Start": "11:10", "StartMeridian":"AM", 
+							"End"  : "12:00", "EndMeridian"  :"PM"
 						},
 						{
 							"Order": 4, 
-							"Start": "1:40" , "StartMeridian":"PM", 
-							"End"  : "2:40" , "EndMeridian"  :"PM"
+							"Start": "1:30" , "StartMeridian":"PM", 
+							"End"  : "2:20" , "EndMeridian"  :"PM"
 						},
 						{
 							"Order": 5, 
-							"Start": "2:50", "StartMeridian":"PM", 
-							"End"  : "3:50", "EndMeridian"  :"PM"
+							"Start": "2:30", "StartMeridian":"PM", 
+							"End"  : "3:20", "EndMeridian"  :"PM"
 						},
 						{
 							"Order": 6, 
-							"Start": "4:00", "StartMeridian" :"PM", 
-							"End"  : "5:00", "EndMeridian"   :"PM"
+							"Start": "3:30", "StartMeridian" :"PM", 
+							"End"  : "4:20", "EndMeridian"   :"PM"
 						}
 					]
 			}
 		},
 		{
 			"Name" : "Custom Day Name",
+			"Active": true,
 			"DayNo": 2, 
 			"Day"  : "Tuesday",
 			"Date" : { 
 				"Month" : "10",
-				"Day"	: "29",
-				"Year"	: "2013"
+				"Day"	: "16",
+				"Year"	: "2014"
 			},
 			"Times": {
 					"Administrative" : [
@@ -243,44 +303,45 @@
 					"Session"		 : [
 						{
 							"Order": 1 ,
-							"Start": "9:00" , "StartMeridian":"AM", 
+							"Start": "9:00"  , "StartMeridian":"AM", 
 							"End"  : "10:00" , "EndMeridian"  :"AM"
 						},
 						{
 							"Order": 2, 
 							"Start": "10:10", "StartMeridian":"AM", 
-							"End"  : "11:10", "EndMeridian"  :"AM"
+							"End"  : "11:00", "EndMeridian"  :"AM"
 						},
 						{
 							"Order": 3, 
-							"Start": "11:30", "StartMeridian":"AM", 
-							"End"  : "12:30", "EndMeridian"  :"PM"
+							"Start": "11:10", "StartMeridian":"AM", 
+							"End"  : "12:00", "EndMeridian"  :"PM"
 						},
 						{
 							"Order": 4, 
-							"Start": "1:40" , "StartMeridian":"PM", 
-							"End"  : "2:40" , "EndMeridian"  :"PM"
+							"Start": "1:30" , "StartMeridian":"PM", 
+							"End"  : "2:20" , "EndMeridian"  :"PM"
 						},
 						{
 							"Order": 5, 
-							"Start": "2:50", "StartMeridian":"PM", 
-							"End"  : "3:50", "EndMeridian"  :"PM"
+							"Start": "2:30", "StartMeridian":"PM", 
+							"End"  : "3:20", "EndMeridian"  :"PM"
 						},
 						{
 							"Order": 6, 
-							"Start": "4:00", "StartMeridian" :"PM", 
-							"End"  : "5:00", "EndMeridian"   :"PM"
+							"Start": "3:30", "StartMeridian" :"PM", 
+							"End"  : "4:20", "EndMeridian"   :"PM"
 						}
 					]
 			}
 		},
 		{
 			"Name" : "Custom Day Name",
+			"Active": false,
 			"DayNo": 3, 
 			"Day"  : "Wednesday",
 			"Date" : { 
 				"Month" : "10",
-				"Day"	: "30",
+				"Day"	: "17",
 				"Year"	: "2013"
 			},
 			"Times": {

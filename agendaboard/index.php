@@ -38,7 +38,7 @@
 	$sessions     = json_decode($session_json, true);
 	
 	$session 	  = new Session(count($sessions["Sessions"]));
-
+	
 	// get current header
 	$headerImage = GetHeader($dayNo);
 	
