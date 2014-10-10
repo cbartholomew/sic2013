@@ -23,5 +23,6 @@ $(document).ready(function(){
 	setTimeout(refreshWebPanel,120000);
 	unbindNoSession();
 	$('table').floatThead(); 
+	$('.mypanel_inactive').width("0px");
 });
 </script>
