@@ -71,12 +71,6 @@ th {
 .sessionColumn { height: 100%; padding: 0px;}
 
 
-/* Action Session Styles */
-.activeCol     { height: 350px;}
-.activeRow     { background-color: #fef56b; }
-
-
-
 .roomTemp {opacity:10%;}
 
 

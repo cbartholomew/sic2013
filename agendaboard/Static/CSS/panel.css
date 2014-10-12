@@ -1,7 +1,7 @@
 .mypanel {
   height: 100%;
   background-color:white;
-  padding: 5px;
+  padding: 10px 5px;
   border-radius: 0px;
 }
 .mypanel_inactive {
@@ -10,12 +10,12 @@
 .makesmaller {
   font-size: 1.5em;
 }
-td.trackTimes {
+.trackTimes {
 
 }
 .trackTime {
   margin: 0px;
-  padding: 5px;
+  padding: 10px 5px;
   font-size: 1.5em;
 }
 .mypanel_active:hover {
@@ -132,3 +132,20 @@ td.trackTimes {
 .room303 .innerLeftColumn, .room303 .modal-header { background-color: #cc2129; }
 .roomLL2 .innerLeftColumn, .roomLL2 .modal-header { background-color: #f26625; }
 .roomLL5 .innerLeftColumn, .roomLL5 .modal-header { background-color: #6A6A6A; }
+
+
+/* Action Session Styles */
+.activeCol     {
+  min-height: 350px;
+}
+.activeCol .trackTime,
+.activeCol .mypanel {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.activeCol .mypanel {
+  background-color: #fef56b;
+}
+.activeRow     {
+  background-color: #fef56b;
+}

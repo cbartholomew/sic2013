@@ -1,5 +1,5 @@
 <div class="innerLeftColumn #INNER_LEFT_PANEL#">
-	<div class='#PANEL_CSS# #EVENT_ID#' data-toggle="modal" data-target="##EVENT_ID#_MODAL">
+	<div class='#PANEL_CSS# #EVENT_ID# clearfix' data-toggle="modal" data-target="##EVENT_ID#_MODAL">
 		<div class="row">
 			<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 innerRightColumn #INNER_RIGHT_PANEL#'>
 			 	#ROOM_IS_FULL_HTML#
