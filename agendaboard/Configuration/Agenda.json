@@ -1,165 +1,165 @@
 {
 	"RoomCount" : 8,
 	"Rooms" 	: [
-				{ 
-					"Number": "Room 301", 
+				{
+					"Number": "Room 301",
 					"Active": true,
 					"ActiveDayOverride":{
-						"DayNos": [] 
+						"DayNos": []
 					},
 					"DisplayOrder" : 3,
-					"Occupancy": 999, 
+					"Occupancy": 999,
 					"Short":"301",
 					"Twitter": {
 						"MaxShown": 1
-					}, 
-					"CSS" : 
-					{ 
+					},
+					"CSS" :
+					{
 						"TableHeader":"room301Header",
 						"PanelLeft"  :"innerLeftColumn_room301",
 						"PanelRight" :"innerRightColumn_room301",
 						"Modal"	 	 :"innerLeftColumnModal_room301"
-					} 
+					}
 				},
-				{ 
-					"Number": "Room 302", 
+				{
+					"Number": "Room 302",
 					"Active": true,
 					"ActiveDayOverride":{
-						"DayNos": [] 
+						"DayNos": []
 					},
 					"DisplayOrder" : 2,
-					"Occupancy": 999, 
-					"Short":"302", 
+					"Occupancy": 999,
+					"Short":"302",
 					"Twitter": {
 						"MaxShown": 1
 					},
-					"CSS" : 
-					{ 
+					"CSS" :
+					{
 						"TableHeader":"room302Header",
 						"PanelLeft": "innerLeftColumn_room302",
 						"PanelRight":"innerRightColumn_room302",
 						"Modal"	 :"innerLeftColumnModal_room302"
-					} 
+					}
 				},
-				{ 
+				{
 					"Number": "Room 303",
-					"Active": true, 
+					"Active": true,
 					"ActiveDayOverride":{
-						"DayNos": [] 
+						"DayNos": []
 					},
 					"DisplayOrder" :1,
-					"Occupancy": 999, 
+					"Occupancy": 999,
 					"Short":"303",
 					"Twitter": {
 						"MaxShown": 1
 					},
-					"CSS" : 
-					{ 
+					"CSS" :
+					{
 						"TableHeader":"room303Header",
 						"PanelLeft": "innerLeftColumn_room303",
 						"PanelRight":"innerRightColumn_room303",
 						"Modal"	 :"innerLeftColumnModal_room303"
-					} 
+					}
 				},
-				{ 
-					"Number": "Room 202",
+				{
+					"Number": "Room 205",
 					"Active": true,
 					"ActiveDayOverride":{
-						"DayNos": [] 
+						"DayNos": [1]
 					},
-					"DisplayOrder" : 5, 
-					"Occupancy": 999, 
-					"Short":"202",
-					"Twitter": {
-						"MaxShown": 1
-					},
-					"CSS" : 
-					{ 
-						"TableHeader":"room202Header",
-						"PanelLeft": "innerLeftColumn_room202",
-						"PanelRight":"innerRightColumn_room202",
-						"Modal"	 : "innerLeftColumnModal_room202"
-					} 
-				},
-				{ 
-					"Number": "Room 204", 
-					"Active": true,
-					"ActiveDayOverride":{
-						"DayNos": [] 
-					},
-					"DisplayOrder" : 4, 
-					"Occupancy": 999, 
-					"Short":"204",
-					"Twitter": {
-						"MaxShown": 1
-					},
-					"CSS" : 
-					{ 
-						"TableHeader":"room204Header",
-						"PanelLeft": "innerLeftColumn_room204",
-						"PanelRight":"innerRightColumn_room204",
-						"Modal"	 : "innerLeftColumnModal_room204"
-					} 
-				},
-				{ 
-					"Number": "Room LL2", 
-					"Active": true,
-					"ActiveDayOverride":{
-						"DayNos": [] 
-					},
-					"DisplayOrder" : 7, 
-					"Occupancy": 999, 
-					"Short":"LL2",
-					"Twitter": {
-						"MaxShown": 1
-					},
-					"CSS" : 
-					{ 
-						"TableHeader":"roomLL2Header",
-						"PanelLeft": "innerLeftColumn_roomLL2",
-						"PanelRight":"innerRightColumn_roomLL2",
-						"Modal"	 : "innerLeftColumnModal_roomLL2"
-					} 
-				},
-				{ 
-					"Number": "Room 205", 
-					"Active": true,
-					"ActiveDayOverride":{
-						"DayNos": [1] 
-					},
-					"DisplayOrder" : 6, 
-					"Occupancy": 999, 
+					"DisplayOrder" : 4,
+					"Occupancy": 999,
 					"Short":"205",
 					"Twitter": {
 						"MaxShown": 1
 					},
-					"CSS" : 
-					{ 
+					"CSS" :
+					{
 						"TableHeader":"room205Header",
 						"PanelLeft": "innerLeftColumn_room205",
 						"PanelRight":"innerRightColumn_room205",
 						"Modal"	 : "innerLeftColumnModal_room205"
-					} 
+					}
 				},
-				{ 
-					"Number": "Room LL5", 
+				{
+					"Number": "Room 204",
 					"Active": true,
 					"ActiveDayOverride":{
-						"DayNos": [] 
+						"DayNos": []
 					},
-					"DisplayOrder" : 8, 
-					"Occupancy": 999, 
+					"DisplayOrder" : 5,
+					"Occupancy": 999,
+					"Short":"204",
+					"Twitter": {
+						"MaxShown": 1
+					},
+					"CSS" :
+					{
+						"TableHeader":"room204Header",
+						"PanelLeft": "innerLeftColumn_room204",
+						"PanelRight":"innerRightColumn_room204",
+						"Modal"	 : "innerLeftColumnModal_room204"
+					}
+				},
+				{
+					"Number": "Room 202",
+					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": []
+					},
+					"DisplayOrder" : 6,
+					"Occupancy": 999,
+					"Short":"202",
+					"Twitter": {
+						"MaxShown": 1
+					},
+					"CSS" :
+					{
+						"TableHeader":"room202Header",
+						"PanelLeft": "innerLeftColumn_room202",
+						"PanelRight":"innerRightColumn_room202",
+						"Modal"	 : "innerLeftColumnModal_room202"
+					}
+				},
+				{
+					"Number": "Room LL5",
+					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": []
+					},
+					"DisplayOrder" : 7,
+					"Occupancy": 999,
 					"Short":"LL5",
 					"Twitter": {
 						"MaxShown": 1
 					},
-					"CSS" : 
-					{ 
+					"CSS" :
+					{
 						"TableHeader":"roomLL5Header",
 						"PanelLeft": "innerLeftColumn_roomLL5",
 						"PanelRight":"innerRightColumn_roomLL5",
 						"Modal"	 : "innerLeftColumnModal_roomLL5"
-					} 
+					}
+				},
+				{
+					"Number": "Room LL2",
+					"Active": true,
+					"ActiveDayOverride":{
+						"DayNos": []
+					},
+					"DisplayOrder" : 8,
+					"Occupancy": 999,
+					"Short":"LL2",
+					"Twitter": {
+						"MaxShown": 1
+					},
+					"CSS" :
+					{
+						"TableHeader":"roomLL2Header",
+						"PanelLeft": "innerLeftColumn_roomLL2",
+						"PanelRight":"innerRightColumn_roomLL2",
+						"Modal"	 : "innerLeftColumnModal_roomLL2"
+					}
 				}
 	],
 	"Title"		: "Agenda",
@@ -167,83 +167,83 @@
 		{
 			"Name" : "Custom Day Name",
 			"Active": true,
-			"DayNo": 1, 
+			"DayNo": 1,
 			"Day"  : "Wednesday",
-			"Date" : { 
+			"Date" : {
 				"Month" : "10",
 				"Day"	: "15",
 				"Year"	: "2014"
-			}, 
+			},
 			"Times": {
 					"Administrative" : [
 						{
-							"Name" : "Registration/Attendee Check-in", 
+							"Name" : "Registration/Attendee Check-in",
 							"Order": 1,
-							"Start": "7:00" , "StartMeridian":"AM", 
-							"End"  : "9:00" , "EndMeridian"  :"AM" 		
+							"Start": "7:00" , "StartMeridian":"AM",
+							"End"  : "9:00" , "EndMeridian"  :"AM"
 						},
 						{
-							"Name" : "SIC://Hub Open Networking (3rd Floor)", 
+							"Name" : "SIC://Hub Open Networking (3rd Floor)",
 							"Order": 2,
-							"Start": "7:30" , "StartMeridian":"AM", 
-							"End"  : "9:00" , "EndMeridian"  :"AM" 		
+							"Start": "7:30" , "StartMeridian":"AM",
+							"End"  : "9:00" , "EndMeridian"  :"AM"
 						}
 					],
 					"Break" : [
 						{
-							"Name":"Grab and Go Breakfast (3rd Floor)", 
+							"Name":"Grab and Go Breakfast (3rd Floor)",
 							"Order": 1 ,
-							"Start": "7:30"   , "StartMeridian":"AM", 
+							"Start": "7:30"   , "StartMeridian":"AM",
 							"End": 	 "9:00"   , "EndMeridian"  :"AM"
 						},
 						{
-							"Name":"Sponsored Break in SIC://Hub", 
+							"Name":"Sponsored Break in SIC://Hub",
 							"Order": 2 ,
-							"Start": "11:00"   , "StartMeridian":"AM", 
+							"Start": "11:00"   , "StartMeridian":"AM",
 							"End": 	 "11:30"   , "EndMeridian"  :"AM"
 						},
 						{
-							"Name" :"Lunch", 
+							"Name" :"Lunch",
 							"Order": 3 ,
-							"Start": "12:30"  , "StartMeridian":"PM", 
+							"Start": "12:30"  , "StartMeridian":"PM",
 							"End"  : "2:00"   , "EndMeridian"  :"PM"
-						},	
+						},
 						{
-							"Name":"Sponsored Break in SIC://Hub", 
+							"Name":"Sponsored Break in SIC://Hub",
 							"Order": 4 ,
-							"Start": "3:00"   , "StartMeridian":"PM", 
+							"Start": "3:00"   , "StartMeridian":"PM",
 							"End": 	 "3:30"   , "EndMeridian"  :"PM"
 						}
 					],
 					"Session"		 : [
 						{
 							"Order": 1 ,
-							"Start": "9:00"  , "StartMeridian":"AM", 
+							"Start": "9:00"  , "StartMeridian":"AM",
 							"End"  : "10:00" , "EndMeridian"  :"AM"
 						},
 						{
-							"Order": 2, 
-							"Start": "10:10", "StartMeridian":"AM", 
+							"Order": 2,
+							"Start": "10:10", "StartMeridian":"AM",
 							"End"  : "11:00", "EndMeridian"  :"AM"
 						},
 						{
-							"Order": 3, 
-							"Start": "11:10", "StartMeridian":"AM", 
+							"Order": 3,
+							"Start": "11:10", "StartMeridian":"AM",
 							"End"  : "12:00", "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 4, 
-							"Start": "1:30" , "StartMeridian":"PM", 
+							"Order": 4,
+							"Start": "1:30" , "StartMeridian":"PM",
 							"End"  : "2:20" , "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 5, 
-							"Start": "2:30", "StartMeridian":"PM", 
+							"Order": 5,
+							"Start": "2:30", "StartMeridian":"PM",
 							"End"  : "3:20", "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 6, 
-							"Start": "3:30", "StartMeridian" :"PM", 
+							"Order": 6,
+							"Start": "3:30", "StartMeridian" :"PM",
 							"End"  : "4:20", "EndMeridian"   :"PM"
 						}
 					]
@@ -252,9 +252,9 @@
 		{
 			"Name" : "Custom Day Name",
 			"Active": true,
-			"DayNo": 2, 
+			"DayNo": 2,
 			"Day"  : "Tuesday",
-			"Date" : { 
+			"Date" : {
 				"Month" : "10",
 				"Day"	: "16",
 				"Year"	: "2014"
@@ -262,73 +262,73 @@
 			"Times": {
 					"Administrative" : [
 						{
-							"Name" : "Registration/Attendee Check-in", 
+							"Name" : "Registration/Attendee Check-in",
 							"Order": 1,
-							"Start": "8:00" , "StartMeridian":"AM", 
-							"End"  : "9:00" , "EndMeridian"  :"AM" 		
+							"Start": "8:00" , "StartMeridian":"AM",
+							"End"  : "9:00" , "EndMeridian"  :"AM"
 						},
 						{
-							"Name" : "SIC://Hub Open Networking (3rd Floor)", 
+							"Name" : "SIC://Hub Open Networking (3rd Floor)",
 							"Order": 2,
-							"Start": "7:30" , "StartMeridian":"AM", 
-							"End"  : "9:00" , "EndMeridian"  :"AM" 		
+							"Start": "7:30" , "StartMeridian":"AM",
+							"End"  : "9:00" , "EndMeridian"  :"AM"
 						}
 					],
 					"Break" : [
 							{
-								"Name":"Grab and Go Breakfast (3rd Floor)", 
+								"Name":"Grab and Go Breakfast (3rd Floor)",
 								"Order": 1 ,
-								"Start": "7:30"   , "StartMeridian":"AM", 
+								"Start": "7:30"   , "StartMeridian":"AM",
 								"End": 	 "9:00"   , "EndMeridian"  :"AM"
 							},
 							{
-								"Name":"Sponsored Break in SIC://Hub", 
+								"Name":"Sponsored Break in SIC://Hub",
 								"Order": 2 ,
-								"Start": "11:00"   , "StartMeridian":"AM", 
+								"Start": "11:00"   , "StartMeridian":"AM",
 								"End": 	 "11:30"   , "EndMeridian"  :"AM"
 							},
 							{
-								"Name" :"Lunch", 
+								"Name" :"Lunch",
 								"Order": 3 ,
-								"Start": "12:30"  , "StartMeridian":"PM", 
+								"Start": "12:30"  , "StartMeridian":"PM",
 								"End"  : "2:00"   , "EndMeridian"  :"PM"
-							},	
+							},
 							{
-								"Name":"Sponsored Break in SIC://Hub", 
+								"Name":"Sponsored Break in SIC://Hub",
 								"Order": 4 ,
-								"Start": "3:00"   , "StartMeridian":"PM", 
+								"Start": "3:00"   , "StartMeridian":"PM",
 								"End": 	 "3:30"   , "EndMeridian"  :"PM"
 							}
 					],
 					"Session"		 : [
 						{
 							"Order": 1 ,
-							"Start": "9:00"  , "StartMeridian":"AM", 
+							"Start": "9:00"  , "StartMeridian":"AM",
 							"End"  : "10:00" , "EndMeridian"  :"AM"
 						},
 						{
-							"Order": 2, 
-							"Start": "10:10", "StartMeridian":"AM", 
+							"Order": 2,
+							"Start": "10:10", "StartMeridian":"AM",
 							"End"  : "11:00", "EndMeridian"  :"AM"
 						},
 						{
-							"Order": 3, 
-							"Start": "11:10", "StartMeridian":"AM", 
+							"Order": 3,
+							"Start": "11:10", "StartMeridian":"AM",
 							"End"  : "12:00", "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 4, 
-							"Start": "1:30" , "StartMeridian":"PM", 
+							"Order": 4,
+							"Start": "1:30" , "StartMeridian":"PM",
 							"End"  : "2:20" , "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 5, 
-							"Start": "2:30", "StartMeridian":"PM", 
+							"Order": 5,
+							"Start": "2:30", "StartMeridian":"PM",
 							"End"  : "3:20", "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 6, 
-							"Start": "3:30", "StartMeridian" :"PM", 
+							"Order": 6,
+							"Start": "3:30", "StartMeridian" :"PM",
 							"End"  : "4:20", "EndMeridian"   :"PM"
 						}
 					]
@@ -337,9 +337,9 @@
 		{
 			"Name" : "Custom Day Name",
 			"Active": false,
-			"DayNo": 3, 
+			"DayNo": 3,
 			"Day"  : "Wednesday",
-			"Date" : { 
+			"Date" : {
 				"Month" : "10",
 				"Day"	: "17",
 				"Year"	: "2013"
@@ -347,61 +347,61 @@
 			"Times": {
 					"Administrative" : [
 						{
-							"Name" : "Registration/Attendee Check-in", 
+							"Name" : "Registration/Attendee Check-in",
 							"Order": 1,
-							"Start": "8:00" , "StartMeridian":"AM", 
-							"End"  : "9:00" , "EndMeridian"  :"AM" 		
+							"Start": "8:00" , "StartMeridian":"AM",
+							"End"  : "9:00" , "EndMeridian"  :"AM"
 						},
 						{
-							"Name" : "SIC://Hub Open Networking (3rd Floor)", 
+							"Name" : "SIC://Hub Open Networking (3rd Floor)",
 							"Order": 2,
-							"Start": "7:30" , "StartMeridian":"AM", 
-							"End"  : "9:00" , "EndMeridian"  :"AM" 		
+							"Start": "7:30" , "StartMeridian":"AM",
+							"End"  : "9:00" , "EndMeridian"  :"AM"
 						}
 					],
 					"Break" : [
 						{
-							"Name":"Grab and Go Breakfast (3rd Floor)", 
+							"Name":"Grab and Go Breakfast (3rd Floor)",
 							"Order": 1 ,
-							"Start": "7:30"   , "StartMeridian":"AM", 
+							"Start": "7:30"   , "StartMeridian":"AM",
 							"End": 	 "9:00"   , "EndMeridian"  :"AM"
 						},
 						{
-							"Name":"Sponsored Break in SIC://Hub", 
+							"Name":"Sponsored Break in SIC://Hub",
 							"Order": 2 ,
-							"Start": "11:00"   , "StartMeridian":"AM", 
+							"Start": "11:00"   , "StartMeridian":"AM",
 							"End": 	 "11:30"   , "EndMeridian"  :"AM"
 						},
 						{
-							"Name" :"Lunch", 
+							"Name" :"Lunch",
 							"Order": 3 ,
-							"Start": "12:30"  , "StartMeridian":"PM", 
+							"Start": "12:30"  , "StartMeridian":"PM",
 							"End"  : "2:00"   , "EndMeridian"  :"PM"
 						}
 					],
 					"Session"		 : [
 						{
-							"Order": 1, 
-							"Start": "9:00" , "StartMeridian":"AM", 
+							"Order": 1,
+							"Start": "9:00" , "StartMeridian":"AM",
 							"End"  : "10:00" , "EndMeridian"  :"AM"
 						},
 						{
-							"Order": 2, 
-							"Start": "10:10", "StartMeridian":"AM", 
+							"Order": 2,
+							"Start": "10:10", "StartMeridian":"AM",
 							"End"  : "11:10", "EndMeridian"  :"AM"
 						},
 						{
-							"Order": 3, 
-							"Start": "11:30", "StartMeridian":"AM", 
+							"Order": 3,
+							"Start": "11:30", "StartMeridian":"AM",
 							"End"  : "12:30", "EndMeridian"  :"PM"
 						},
 						{
-							"Order": 4, 
-							"Start": "1:40" , "StartMeridian":"PM", 
+							"Order": 4,
+							"Start": "1:40" , "StartMeridian":"PM",
 							"End"  : "2:40" , "EndMeridian"  :"PM"
 						}
 					]
 			}
 		}
-	]	
+	]
 }

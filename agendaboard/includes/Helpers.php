@@ -420,12 +420,13 @@
 			case "Room 303":
 				return "room303";
 			break;
-			case "Room LL2":
-				return "roomLL2";
-			break;
 			case "Room LL5":
 				return "roomLL5";
 			break;
+			case "Room LL2":
+				return "roomLL2";
+			break;
+
 			case "tbd":
 			default:
 				return "roomNotActive";
