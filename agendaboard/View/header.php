@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
 	<title>SIC2014 Agendaboard</title>
 <!-- Content Delivery Network StyleSheets  -->
 <link rel="stylesheet" type="text/css" href="cdn/css/jquery-ui.smoothness.min.css">
