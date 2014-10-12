@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
 	<title>SIC2014 Agendaboard</title>
 <!-- Content Delivery Network StyleSheets  -->
-<link rel="stylesheet" type="text/css" href="cdn/css/jquery-ui.smoothness.min.css"> 
+<link rel="stylesheet" type="text/css" href="cdn/css/jquery-ui.smoothness.min.css">
 <link rel="stylesheet" type="text/css" href="cdn/css/bootstrap.min.css">
 
 <!-- Custom CSS -->
@@ -17,7 +18,7 @@
 <!-- Content Delivery Network Scripts  -->
 <script type="text/javascript" src="cdn/js/jquery.min.js"></script>
 <script type="text/javascript" src="cdn/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="cdn/js/jquery-ui.min.js"></script>    
+<script type="text/javascript" src="cdn/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="cdn/lib/jQuery.XDomainRequest.js"></script>
 <script type="text/javascript" src="cdn/lib/jquery.json.min.js"></script>
 <script type="text/javascript" src="cdn/lib/jquery.validate.js"></script>
@@ -42,12 +43,11 @@
 <!--[if lt IE 10]>
       	<script type="text/javascript" src="cdn/lib/query.watermark.min.js"></script>
 <![endif]-->
-<head>
+</head>
 <body>
-<div class='logoHeader row'>
-	<div class='col-xs-12 col-sm-8 col-md-8 col-lg-8 '>
+<div class="container">
+  <div class='logoHeader'>
 		<?php
-			print("<img src='" . $headerImage . "' alt='2013-branding-A' class='' />");	
+			print("<img src='" . $headerImage . "' alt='2013-branding-A' class='' />");
 		?>
-	</div>
-</div>
+  </div>

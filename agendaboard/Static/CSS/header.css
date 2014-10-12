@@ -1,5 +1,5 @@
-.logoHeader   { background-color:#233645; }
-.logoFooter   { color:white; font-weight:bold; font-family:"proxima-nova", "Century Gothic", "Arial", "san-serif"; background-color:#233645; text-align:center}
+.logoHeader   { background-color:#233645; border-bottom: 1px solid #ccc; }
+.logoFooter   { background-color:#233645; border-top: 1px solid #ccc; }
 .logoFooterA  { background-color: white; }
 .logoA 	      { height: 60px;width:1020px; }
 .logoB 		  { height: 120px;}
