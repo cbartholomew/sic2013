@@ -72,9 +72,9 @@
   padding:3px 6px;
   border-radius:5px;
 }
-.trackDigital { background-color: #f26529; }
-.trackDevelop { background-color: #662584; }
-.trackDesign  { background-color: #00DEF2; }
+.trackDigital { background-color: #662584; }
+.trackDevelop { background-color: #005da4; }
+.trackDesign  { background-color: #f26529; }
 
 
 .statusLabelCancelledTrue,
