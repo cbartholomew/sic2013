@@ -1,5 +1,5 @@
 <?php
-    
+
     function IsRoomInactiveOnDay($room, $day)
     {
     	$overrideDayCount = count($room["ActiveDayOverride"]["DayNos"]);
@@ -11,11 +11,11 @@
 				// if current day is suppose ot be inactive continue
 				if($day == $room["ActiveDayOverride"]["DayNos"][$j])
 				{
-					return true;			
+					return true;
 				}
 			}
 		}
-		
+
 		return false;
     }
 
@@ -26,31 +26,31 @@
 	function GetHeader($dayNo)
 	{
 		$imagePath = "";
-		
+
 		switch($dayNo)
 		{
 			case "0":
-				$imagePath = "Static/Images/SIC2013-MON.png";
+				$imagePath = "Static/Images/SIC2014-WED.png";
 				break;
 			case "1":
-				$imagePath = "Static/Images/SIC2013-TUE.png";
+				$imagePath = "Static/Images/SIC2014-THUR.png";
 				break;
 			case "2":
-				$imagePath = "Static/Images/SIC2013-WED.png";
+				$imagePath = "Static/Images/SIC2014-branding.png";
 				break;
 			default:
-				$imagePath = "Static/Images/SIC2013-branding-site.png";
+				$imagePath = "Static/Images/SIC2014-branding.png";
 				break;
 		}
 		return $imagePath;
 	}
-	
+
 	/* GetStatusCSS($input)
 	 *
  	 * Determines which CSS should be used for the status
-	 */	
+	 */
 	function GetStatusHTML($input)
-	{		
+	{
 		$output = "";
 		switch($input)
 		{
@@ -59,40 +59,40 @@
 			break;
 			case "Moved":
 				$output = "<label class='label label-danger statusLabelMovedTrue'><i class='glyphicon glyphicon-transfer'></i>&nbsp;Event Moved!</label>";
-			break;	
+			break;
 			default:
 				$output = "";
 			break;
 		}
 		return $output;
-	}	
-	
+	}
+
 	/* GetIsRoomFullText($input)
 	 *
  	 * Determines  which css and message to use based on if the room is full
 	 */
 	function GetIsRoomFullText($input)
-	{	
-		return ($input != "false") ? 
+	{
+		return ($input != "false") ?
 			array( "CSS"  =>"statusLabelFullTrue",
-				   "HTML" => "<label class='label label-danger roomFull'><i class='glyphicon glyphicon-ban-circle'></i>&nbsp;Room Full</label>") : 
+				   "HTML" => "<label class='label label-danger roomFull'><i class='glyphicon glyphicon-ban-circle'></i>&nbsp;Room Full</label>") :
 			array( "CSS"  =>"statusLabelFullFalse",
 				   "HTML" => "<label class='label label-success' ><i class='glyphicon glyphicon-thumbs-up'></i>&nbsp;Room Open</label>") ;
 	}
-		
+
 	/* GetTweetsByHashEventTag($roomHashTag)
 	 *
- 	 * Acts as a controller to call my custom TwitterSearchAPI, 
+ 	 * Acts as a controller to call my custom TwitterSearchAPI,
   	 * It will return a list of a "tweets", based on a specific
  	 * search tag.
-	 */		
+	 */
 	function GetTweetsByHashEventTag($roomHashTag)
 	{
 		$tweets = NULL;
 		// make new twitter api
 		$twitter = new TwitterSearchAPI(CONSUMER_KEY,CONSUMER_SECRET);
 		// do request to get token
-		
+
 		if(!isset($_SESSION["ACCESS_TOKEN"]))
 		{
 			$twitter->doRequest(TwitterSearchAPI::REQUEST_TOKEN);
@@ -109,7 +109,7 @@
 		{
 			// set hash tag
 			$twitter->setSearchTag($roomHashTag);
-		
+
 			// do request
 			$twitter->doRequest(TwitterSearchAPI::REQUEST_SEARCH);
 
@@ -119,68 +119,68 @@
 
 		return $tweets;
 	}
-	
+
 	function SetRefreshURLDictionary($hastag, $refreshURL)
 	{
 		$_SESSION[$hastag] = $refreshURL;
 	}
-	
+
 	function GetRefreshURLDictionary($hastag)
 	{
 		if(isset($_SESSION[$hastag]) && !empty($_SESSION[$hastag]))
 		{
 			return "";
 			// disabled because only rendering one tweet
-			//return $_SESSION[$hastag];			
+			//return $_SESSION[$hastag];
 		}
-		
+
 		return "";
 	}
-	
+
 	/*  GetTopicMultiHtml($items)
 	 *
      *  Builds some html for the variety of topics passed in
-	 */	
+	 */
 	function GetTopicMultiHtml($items)
 	{
 		$html = "";
 
 		foreach($items as $item)
 		{
-			$html .= "<span class='label label-default'>" . $item["Name"]. "</span>&nbsp;";	
+			$html .= "<span class='label label-default'>" . $item["Name"]. "</span>&nbsp;";
 		}
 
-		return $html;	
+		return $html;
 	}
 
-	/* [DEPRICIATED] SplitAndReplace($input, $dilimiter, $returnIndex) 
+	/* [DEPRICIATED] SplitAndReplace($input, $dilimiter, $returnIndex)
 	 *
      *  used to do a split and replace for sepcific character sets
 	 *  Depriciated when JSON data was setup.
-	 */	
-	function SplitAndReplace($input, $dilimiter, $returnIndex) 
+	 */
+	function SplitAndReplace($input, $dilimiter, $returnIndex)
 	{
 		try
 		{
 			$outputArr = array();
-			
-			// parse out input based on the dilimeter 
+
+			// parse out input based on the dilimeter
 			$outputArr = explode($dilimiter, $input);
-			
+
 			// once we have an array, pull the index that you want
 			$output = $outputArr[$returnIndex];
-			
+
 			// scrub the characters that you don't want
 			$output = ScrubBrackets($output);
-			
+
 			return $output;
-			
+
 		}
 		catch(Exception $e)
 		{
 			return $output;
-		}	
-	}	
+		}
+	}
 	/* [DEPRICIATED] function ScrubBrackets($items)
 	 *
      *  used to do a split and replace for sepcific character sets
@@ -190,10 +190,10 @@
 	{
 		$input = str_replace("[", "" , $input);
 		$input = str_replace("]", "" , $input);
-		
+
 		$output = $input;
-		
-		return $output;		
+
+		return $output;
 	}
 
 	/* ConvertDayNoToDayStr($input)
@@ -219,11 +219,11 @@
 		}
 		return $output;
 	}
-	
+
 	/*	ConvertDayStrToDayNo($input)($input)
 	 *
-	 *	Converts the day string to the actual day number 
-	 */	
+	 *	Converts the day string to the actual day number
+	 */
 	function ConvertDayStrToDayNo($input)
 	{
 		$output = 0;
@@ -241,41 +241,41 @@
 		}
 		return $output;
 	}
-	
+
 	function GetDayNo($date)
 	{
 		// copy date values
-		$month = $date["mon"]; 
+		$month = $date["mon"];
 		$day   = $date["mday"];
 		$year  = $date["year"];
-		
+
 		// build full date
 		$date = $month . "-" . $day . "-" . $year;
-		
+
 		$dayNo = 0;
 		// return day no
 		switch($date)
 		{
-			case "10-28-2013":
+			case "10-15-2014":
 				$dayNo = 0;
 			break;
-			case "10-29-2013":
+			case "10-16-2014":
 				$dayNo = 1;
 			break;
-			case "10-30-2013":
+			case "":
 				$dayNo = 2;
 			break;
 			default:
 				$dayNo = 0;
 			break;
 		}
-		
+
 		return $dayNo;
 	}
-	
+
 	/*	ConvertSecondsToTime($seconds)
 	 *
-	 *	Converts the amount of time in sections to 
+	 *	Converts the amount of time in sections to
 	 *  to standard time.
 	 */
 	function ConvertSecondsToTime($seconds)
@@ -283,33 +283,33 @@
 		$hours = floor($seconds / 3600);
 		$mins  = floor(($seconds - ($hours*3600)) / 60);
 		$mins  = ($mins == 0) ? "00" : $mins;
-		return $hours . ":" . $mins;	
-	}	
+		return $hours . ":" . $mins;
+	}
 
 	/* ConvertTimeToSeconds($time)
 	 *
-	 * Converts 12 hour string time to 
+	 * Converts 12 hour string time to
 	 * seconds
 	 */
 	function ConvertTimeToSeconds($time)
 	{
-			
+
 		$time = str_replace("am","",$time);
 		$time = str_replace("pm","",$time);
 		$timeArr = explode(":", $time);
-		return (int) $timeArr[0] * 3600 + (int) $timeArr[1] * 60;		
+		return (int) $timeArr[0] * 3600 + (int) $timeArr[1] * 60;
 	}
-	
+
 	/* IsCurrentSlotTime($localTimeInSeconds, $start, $end)
 	 *
 	 * Checks if it's the current timeslot so that the agenda
-	 * will display custom CSS. 
-	 */		
+	 * will display custom CSS.
+	 */
 	function IsCurrentSlotTime($localTime, $agendaStartTime, $agendaEndTime)
 	{
 		return ($localTime >= $agendaStartTime && $localTime<= $agendaEndTime);
 	}
-	
+
 	/* cmpDisplayOrder($a, $b)
 	 *
 	 * Compare function, sorts by display orders
@@ -318,88 +318,89 @@
 	{
 		$a_room = $a_room["DisplayOrder"];
 		$b_room = $b_room["DisplayOrder"];
-			
-		if ($a_room == $b_room) 
+
+		if ($a_room == $b_room)
 		{
 	        return 0;
-	    }	
+	    }
 	    return ($a_room < $b_room) ? -1 : 1;
 	}
-		
+
 	/* SortObjectByProperty($input)
 	 *
-	 * sorts the array of rooms by room no, returns 
+	 * sorts the array of rooms by room no, returns
 	 * array of rooms
 	 */
 	function SortObjectByProperty($input, $sortType)
 	{
 		$output = $input;
-		
+
 		usort($output, $sortType);
-		
+
 		return $output;
 	}
-	
+
 	/* GetMultiSpeakerHTML($items, $publicOnly)
 	 *
-	 * Builds HTML to be handled by agenda.php. 
-	 * Will only display public, if specified 
+	 * Builds HTML to be handled by agenda.php.
+	 * Will only display public, if specified
 	 */
 	function GetMultiSpeakerHTML($items, $publicOnly)
 	{
 		$html = "";
+    $html .= "<ul class='sessionSpeakers'>";
 
 		foreach($items as $item)
 		{
 			if($publicOnly)
 				if($item["Public"] == "false")
 					continue;
-				
-			$html .= "<label class='speakerName'>" . $item["First Name"] . " " . $item["Last Name"];
-			$html .= "<span class='speakerCompany'><em>" . iconv("UTF-8", "CP1252", $item["Company"]) . "</em></span></label>";		
-		}
 
+			$html .= "<li class='sessionSpeaker'><p class='speakerName'>" . $item["First Name"] . " " . $item["Last Name"] . "</p>";
+			$html .= "<p class='speakerCompany'>" . iconv("UTF-8", "CP1252", $item["Company"]) . "</p></li>";
+		}
+    $html .= "</ul>";
 		return $html;
 	}
-	
+
 	/* GetMultiSpeakerHTMLFull($items, $publicOnly)
 	 *
-	 * Builds HTML to be handled by agenda.php. 
+	 * Builds HTML to be handled by agenda.php.
 	 * Will only display public, if specified.
 	 * Will also insert speakers in a unordered list
 	 */
 	function GetMultiSpeakerHTMLFull($items, $publicOnly)
 	{
 		$html = "";
-		
+
 		$html .= "<ul>";
-		
+
 		foreach($items as $item)
 		{
 			if($publicOnly)
 				if(!$item["Public"])
 					continue;
-			
-			$html .= "<li>";	
-			$html .= "<b>" . $item["First Name"] . " " . $item["Last Name"] . "</b>, " . $item["Job Title"];
-			$html .= "<span class='speakerCompany'><em>" . iconv("UTF-8", "CP1252", $item["Company"]) . "</em></span>";	
-			$html .= "</li>";	
+
+			$html .= "<li class='sessionSpeaker'>";
+			$html .= "<p class='speakerName'>" . $item["First Name"] . " " . $item["Last Name"] . "</p>";
+			$html .= "<p class='speakerCompany'>" . iconv("UTF-8", "CP1252", $item["Company"]) . " <span class='speakerTitle'>" . $item["Job Title"] . "</span></p>";
+			$html .= "</li>";
 		}
-		
+
 		$html .= "</ul>";
-		
+
 		return $html;
 	}
-	
+
 	/* [DEPRICIATED] GetBackgroundCSS($roomNumber)
-	 * 
+	 *
 	 * <!-- THIS CSS IS NOW SPECIFIC TO THE ROOM IN AGENDA.JSON -->
 	 * based on input roomNumber, will return
 	 * the specific CSS to be applied to agenda.php
 	 */
 	function GetBackgroundCSS($roomNumber)
 	{
-		switch($roomNumber) 
+		switch($roomNumber)
 		{
 			case "Room 202":
 				return "room202";
@@ -425,13 +426,13 @@
 			case "Room LL5":
 				return "roomLL5";
 			break;
-			case "tbd":					
+			case "tbd":
 			default:
 				return "roomNotActive";
 			break;
 		}
 	}
-	
+
 	/* [DEPRICIATED] GetBackgroundHeaderCSS($roomNumber)
 	 *
 	 * <!-- THIS CSS IS NOW SPECIFIC TO THE ROOM IN AGENDA.JSON -->
@@ -441,7 +442,7 @@
 	 */
 	function GetBackgroundHeaderCSS($roomNumber)
 	{
-		switch($roomNumber) 
+		switch($roomNumber)
 		{
 			case "Room 202":
 				return "room202Header";
@@ -467,7 +468,7 @@
 			case "Room LL5":
 				return "roomLL5Header";
 			break;
-			case "tbd":					
+			case "tbd":
 			default:
 				return "defaultHeaderBackground";
 			break;
@@ -494,8 +495,8 @@
 				break;
 				default:
 					return "trackNoTrack";
-				break;		
+				break;
 		}
-		
+
 	}
 ?>

@@ -1,57 +1,134 @@
-.mypanel 	{ height: 100%; background-color:white; padding-top:5px; padding-right:5px; padding-left:5px; border-radius: 0px 5px 5px 0px; }
-.mypanel ul, li  { font-size: 1.5em; }
-.mypanel_inactive { height: 100%; background-color:white; background: rgba(255,255,255.1)/* url(../Images/diagonal2.png) */; padding-top:5px; padding-right:5px; padding-left:5px;}
-.makesmaller { font-size: 1.5em; }
-.trackTimes h4 { padding-left: 5px; font-size: 1.5em; }
+.mypanel {
+  height: 100%;
+  background-color:white;
+  padding: 5px;
+  border-radius: 0px;
+}
+.mypanel_inactive {
+  background-color:#ccc; /* background: rgba(255,255,255.1) *//* url(../Images/diagonal2.png) */;
+}
+.makesmaller {
+  font-size: 1.5em;
+}
+td.trackTimes {
 
-.eventOverlay  { opacity:0.9;   filter:alpha(opacity=90); }
-.eventOverlay:hover { cursor: pointer; }
+}
+.trackTime {
+  margin: 0px;
+  padding: 5px;
+  font-size: 1.5em;
+}
+.mypanel_active:hover {
+  cursor: pointer;
+  opacity:0.9;
+  filter:alpha(opacity=90);
+}
 
-.innerLeftColumn_room202 { height: 100%; background-color: #005DA4; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_room204 { height: 100%; background-color: #19B244; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_room205 { height: 100%; background-color: #6A6A6A; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_room301 { height: 100%; background-color: #52c6da; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_room302 { height: 100%; background-color: #652c84; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_room303 { height: 100%; background-color: #cc2129; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_roomLL2 { height: 100%; background-color: #f26625; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
-.innerLeftColumn_roomLL5 { height: 100%; background-color: #6A6A6A; padding-left:14px; border-radius:5px; box-shadow: 0px 0px 1px #ddd; }
+.innerLeftColumn {
+  height: 100%;
+  padding-left:5px;
+  border-radius:0px;
+  box-shadow: 0px 0px 1px #ddd;
+}
+.innerRightColumn {
+  height: 100%;
+  margin-left:1%;
+  margin-right:2%;
+}
 
-.innerLeftColumnModal_room202 { height: 100%; background-color: #005DA4;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_room204 { height: 100%; background-color: #19B244;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_room205 { height: 100%; background-color: #6A6A6A;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_room301 { height: 100%; background-color: #52c6da;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_room302 { height: 100%; background-color: #652c84;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_room303 { height: 100%; background-color: #cc2129;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_roomLL2 { height: 100%; background-color: #f26625;padding-left:20px; border-radius:5px; color:white;}
-.innerLeftColumnModal_roomLL5 { height: 100%; background-color: #6A6A6A;padding-left:20px; border-radius:5px; color:white;}                                         
+.sessionName {
+  line-height: 1.1em;
+  margin: 0px 0px 5px 0px;
+}
+.sessionSpeakers {
+  margin: 0px;
+  padding: 0px;
+}
+.sessionSpeaker {
+  line-height: 1.3em;
+  margin-bottom: 3px;
+}
+.speakerName    {
+  display: block;
+  font-weight: bold;
+  font-size:1.2em;
+  color: #19b244;
+  margin: 0px;
+}
+.speakerCompany {
+  color: #111;
+  display: block;
+  font-size: .95em;
+  line-height: 1.1em;
+  margin: 0px;
+}
+.speakerTitle {
+  color: #888;
+  font-weight: 400;
+}
+.sessionTrack {
+  margin-right: 10px;
+  color:white;
+  padding:3px 6px;
+  border-radius:5px;
+}
+.trackDigital { background-color: #f26529; }
+.trackDevelop { background-color: #662584; }
+.trackDesign  { background-color: #00DEF2; }
 
-.innerRightColumn_room202 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_room204 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_room205 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_room301 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_room302 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_room303 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_roomLL2 { height: 100%; margin-left:1%; margin-right:2%; }
-.innerRightColumn_roomLL5 { height: 100%; margin-left:1%; margin-right:2%; }
 
-.statusLabelCancelledTrue  { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
-.statusLabelMovedTrue 	   { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
-.statusLabelFullFalse { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
-.statusLabelFullTrue  { margin-bottom:1%;color:white;padding:3px 6px; border-radius:5px;}
+.statusLabelCancelledTrue,
+.statusLabelMovedTrue,
+.statusLabelFullFalse,
+.statusLabelFullTrue,
+.roomFull {
+  font-size: 1em;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-.trackDigital { background-color: #f26529; float:right; margin-top:1%;margin-right:3%; margin-left: 2%; color:white;padding:3px 6px; border-radius:5px; }
-.trackDevelop { background-color: #662584; float:right; margin-top:1%;margin-right:3%; margin-left: 2%; color:white;padding:3px 6px; border-radius:5px; }
-.trackDesign  { background-color: #00DEF2; float:right; margin-top:1%;margin-right:3%; margin-left: 2%; color:white;padding:3px 6px; border-radius:5px; }
 
-.sessionName { font-size: 1.4em; line-height: 1.2em; margin: 5px 0px 10px 0px; }
-.speakerName    { font-weight: bold; font-size:1.2em; color: #19b244}
-.speakerCompany { color: #111; display: block; font-size: .95em; }
-.speakerCompany:before { content: "// "; }
-.speakerName em { font-weight: normal; }
-label.speakerName {line-height: 1.1em; display: block; }
+.mypanel .sessionSpeaker {
+  list-style: none;
+}
+.modal-dialog {
+}
+.modal-header {
+  height: 100%;
+  padding-left:20px;
+  border-radius:5px;
+  color:white;
+}
+.modal-header {
+  border-radius: 5px 5px 0px 0px;
+}
+.modal-header h3 {
+  font-size: 1.75em;
+  letter-spacing: .03em;
+  margin: 0px;
+  padding-right: 20px;
+  line-height: 1.2em;
+}
+.modal-body h4.sectionHeader {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin: 15px 0px 5px 0px;
+}
 
-.modal-header { border-radius: 5px 5px 0px 0px; }
-.modal-header h4 { font-size: 1.5em; padding-right: 20px; line-height: 1.2em; }
-.modal-body h4, .modal-body h5 { margin: 10px 0px 5px 0px; }
-.modal-body .speakerCompany {  font-size: 1em; }
-.modal-body li { padding-bottom: 1%; }
+.modal-body ul {
+  padding-left: 20px;
+}
+.modal-body li {
+  padding-bottom: 3px;
+}
+
+/* Room Specific Colors */
+.room202 .innerLeftColumn, .room202 .modal-header { background-color: #005DA4; }
+.room204 .innerLeftColumn, .room204 .modal-header { background-color: #19B244; }
+.room205 .innerLeftColumn, .room205 .modal-header { background-color: #6A6A6A; }
+.room301 .innerLeftColumn, .room301 .modal-header { background-color: #00DEF2; }
+.room302 .innerLeftColumn, .room302 .modal-header { background-color: #652c84; }
+.room303 .innerLeftColumn, .room303 .modal-header { background-color: #cc2129; }
+.roomLL2 .innerLeftColumn, .roomLL2 .modal-header { background-color: #f26625; }
+.roomLL5 .innerLeftColumn, .roomLL5 .modal-header { background-color: #6A6A6A; }
